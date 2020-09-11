@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+.logo {
+    width: 50%;
+    height: 50%;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+header nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+header nav ul li {
+    padding: 10px;
+}
